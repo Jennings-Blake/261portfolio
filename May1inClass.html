@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <title>Result Two Button</title>
+  <script>
+  
+
+  </script>
+
+  <style>
+ 
+  </style>
+</head>
+
+<body>
+    
+  <div>
+  <input type="number" id='input1'>
+  <input type="number" id='input2'>
+  </div>
+      <button id="plusButton" onclick="add">+</button>
+      <button id="subButton" onclick="subtract">-</button>
+    Result:
+    <span id="result"></span>
+    </div>
+ 
+<script>
+    function add() {
+        let num1 = document.getElementById('input1').value;
+        let num2 = document.getElementById('input2').value;
+        const resultBox = document.getElementById('result');
+        resultBox.innerHTML = parseFloat(num1) + parseFloat(num2);
+    }
+</script>
+
+
+</body>
+</html>
