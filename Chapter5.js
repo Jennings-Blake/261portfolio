@@ -1,9 +1,3 @@
-
-
-
-
-
-<script>
 const superman = {
     name: 'Superman',
     'real name': 'Clark Kent',
@@ -64,4 +58,3 @@ console.log('city' in superman);
 console.log(superman.city !== undefined);
 
 
-</script>
